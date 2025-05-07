@@ -73,14 +73,14 @@
 
 **Exemplo 2:**
 >     let mensagem= function(boasvindas) {
->      console.log(boasvindas);
+>        console.log(boasvindas);
 >     }
 >     let escrever= ("Olá, seja bem-vindo(a)!");
 >     mensagem(escrever);
 
 **Exemplo 3:**
 >     let area= function(lado) {
->      cal= lado ** 2;
->      return cal
+>        cal= lado ** 2;
+>        return cal
 >     }
 >     console.log("A área do quadrado é igual a " + area(7))
