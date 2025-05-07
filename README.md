@@ -64,24 +64,24 @@
 
 **Exemplo 1:**
 >     const media= function(nota1, nota2, nota3) {
->       const soma= nota1 + nota2 + nota3;
->       const resultado= soma / 3;
->       return resultado;
+>      const soma= nota1 + nota2 + nota3;
+>      const resultado= soma / 3;
+>      return resultado;
 >     }
 >     const situacao= media(7, 4.5, 9) ;
 >     console.log("A média aritmética é " + situacao);
 
 **Exemplo 2:**
->     let mensagem= function(boasvindas) {
->        console.log(boasvindas);
->     }
->     let escrever= ("Olá, seja bem-vindo(a)!");
->     mensagem(escrever);
-
+>      let mensagem= function(boasvindas) {
+          console.log(boasvindas);
+        }
+        let escrever= ("Olá, seja bem-vindo(a)!");
+        mensagem(escrever);
+  
 **Exemplo 3:**
 >     let area= function(lado) {
 >        cal= lado ** 2;
->        return cal
+>         return cal
 >     }
 >     console.log("A área do quadrado é igual a " + area(7))
 
@@ -102,4 +102,25 @@
 > Ao mesmo tempo que a sintaxe mais enxuta possa ser mais compreensível, também pode ser mais complexo de se utilizar, principalmente pela percepção mais “padrão” de como uma função é declarada, a qual a função arrow se difere fortemente.
 >
 
-** Exemplos:**
+**Exemplos:**
+
+**Exemplo 1:**
+> let nomecompleto= (nome) => console.log("Meu nome completo é " + nome);
+nomecompleto("Pedro Henrique Santos de Pontes")
+
+**Exemplo 2:**
+>const proximo_ano= (ano_atual) => {
+>    ano_sucessor= ano_atual + 1;
+>    return ano_sucessor;
+>}
+console.log("Depois de 2025, vem " + proximo_ano(2025));
+
+**Exemplo 3:**
+>const definir_sexo= (informacao) => {
+>    if (informacao == "h") {
+>        console.log("É homem.")
+>    } else if (informacao == "m") {
+>        console.log("É mulher.")
+>    }
+>}
+>definir_sexo("m")
