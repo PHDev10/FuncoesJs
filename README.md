@@ -55,31 +55,31 @@
 >
 > Uma cópia de uma função expression pode ser facilmente criada apenas atribuindo a variável a qual a função foi atribuída, permitindo chamar a função em outras partes do código, mesmo após a sua leitura, além de atribuir novos valores.
 >
-** Desvantagens:**
+**Desvantagens:**
 > Ao mesmo tempo que pode ser útil, a atribuição de uma função a uma variável requer atenção, pois uma vez que função estiver atribuída, a variável já terá um valor (argumento). Isso pode gerar erros de sintaxe, caso ocorra uma reatribuição de valores a variável ou mais chamadas a ela.
 > 
 > A função a qual a função será atribuída também deverá ser corretamente declarada (var, let ou const) para evitar erros na saída de dados quando a variável for chamada ou em caso de uma reatribuição aso valores dessas variáveis.
 
-** Exemplos:**
-** Exemplo 1:**
-> const media= function(nota1, nota2, nota3) {
->    const soma= nota1 + nota2 + nota3;
->    const resultado= soma / 3;
->    return resultado;
-> }
-> const situacao= media(7, 4.5, 9) ;
-> console.log("A média aritmética é " + situacao);
+**Exemplos:**
+**Exemplo 1:**
+>     const media= function(nota1, nota2, nota3) {
+>       const soma= nota1 + nota2 + nota3;
+>       const resultado= soma / 3;
+>       return resultado;
+>     }
+>     const situacao= media(7, 4.5, 9) ;
+>     console.log("A média aritmética é " + situacao);
 
-** //Exemplo 2:**
-> let mensagem= function(boasvindas) {
->    console.log(boasvindas);
-> }
-> let escrever= ("Olá, seja bem-vindo(a)!");
-> mensagem(escrever);
+**Exemplo 2:**
+>     let mensagem= function(boasvindas) {
+>      console.log(boasvindas);
+>     }
+>     let escrever= ("Olá, seja bem-vindo(a)!");
+>     mensagem(escrever);
 
-** //Exemplo 3:**
-> let area= function(lado) {
->    cal= lado ** 2;
->    return cal
-> }
-> console.log("A área do quadrado é igual a " + area(7))
+**Exemplo 3:**
+>     let area= function(lado) {
+>      cal= lado ** 2;
+>      return cal
+>     }
+>     console.log("A área do quadrado é igual a " + area(7))
