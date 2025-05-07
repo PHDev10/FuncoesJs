@@ -14,8 +14,10 @@
 > Hoisting (içamento) – faz com que a função possa ser chamada em qualquer parte do código e quantas vezes quiser.
 
 **Desvantagens:**
->Maior quantidade de linhas, o que pode ocasionar em maior lentidão na execução do código.
-A declaração de uma função ocupa espaço na memória. Então, em um código onde utilizamos esse tipo de função, teria uma quantidade de memória maior reservada, necessitando de maior capacidade de armazenamento e execução por parte da máquina.
+> Maior quantidade de linhas, o que pode ocasionar em maior lentidão na execução do código.
+> 
+> A declaração de uma função ocupa espaço na memória. Então, em um código onde utilizamos esse tipo de função, teria uma quantidade de memória maior reservada, necessitando de maior capacidade de armazenamento e execução por parte da máquina.
+> 
 ## Exemplos de Função Declaration:
 //Exemplo 1:
 function idade() {
