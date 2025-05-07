@@ -1,7 +1,7 @@
 # FuncoesJs
 # 1° Trabalho da Disciplina de LS (Linguagem de Script) - Explicando Funções em Js (Javascript)
 
-## Função Declaration:
+Função Declaration:
 > A declaração de função (função declaration), por sua sintaxe, segue o “raciocínio lógico” de uma função em uma linguagem de programação – uma palavra de comando obrigatória (“function”, em Javascrpit), seguida pela palavra que nomeará a função e permitirá que seja chamada. É a maneira “convencional” para declarar uma função em Javascript.
 ## Vantagens:
 Declaração e sintaxe de fácil interpretação e entendimento, devido, principalmente, pela palavra “function” no começo, o que pode ser associado a como as funções são declaradas de maneira semelhante em outras linguagens de programação (como Python).
