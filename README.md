@@ -60,7 +60,8 @@
 > 
 > A função a qual a função será atribuída também deverá ser corretamente declarada (var, let ou const) para evitar erros na saída de dados quando a variável for chamada ou em caso de uma reatribuição aso valores dessas variáveis.
 
-**Exemplos:**
+**Exemplos de Função Expression:**
+
 **Exemplo 1:**
 >     const media= function(nota1, nota2, nota3) {
 >       const soma= nota1 + nota2 + nota3;
