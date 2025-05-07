@@ -71,7 +71,7 @@
 > console.log("A média aritmética é " + situacao);
 
 ** //Exemplo 2:**
->let mensagem= function(boasvindas) {
+> let mensagem= function(boasvindas) {
 >    console.log(boasvindas);
 > }
 > let escrever= ("Olá, seja bem-vindo(a)!");
