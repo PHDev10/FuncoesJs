@@ -1,6 +1,5 @@
 # FuncoesJs
 # 1° Trabalho da Disciplina de LS (Linguagem de Script) - Explicando Funções em Js (Javascript)
-#
 
 ## Função Declaration:
 A declaração de função (função declaration), por sua sintaxe, segue o “raciocínio lógico” de uma função em uma linguagem de programação – uma palavra de comando obrigatória (“function”, em Javascrpit), seguida pela palavra que nomeará a função e permitirá que seja chamada. É a maneira “convencional” para declarar uma função em Javascript.
@@ -12,4 +11,25 @@ Hoisting (içamento) – faz com que a função possa ser chamada em qualquer pa
 ## Desvantagens:
 Maior quantidade de linhas, o que pode ocasionar em maior lentidão na execução do código.
 A declaração de uma função ocupa espaço na memória. Então, em um código onde utilizamos esse tipo de função, teria uma quantidade de memória maior reservada, necessitando de maior capacidade de armazenamento e execução por parte da máquina.
-Exemplos de Função Declaration:
+## Exemplos de Função Declaration:
+//Exemplo 1:
+function idade() {
+    console.log("Qual a sua idade?")
+}
+idade()
+
+//Exemplo 2:
+function mensagem(msg) {
+    console.log(msg)
+}
+mensagem("Olá, Mundo!")
+
+//Exemplo 3:
+function cal(valor1, valor2) {
+    r= valor1 + valor2
+    return r
+}
+const a= 10
+const b= 10
+cal(a, b)
+console.log("O resultado é " + r)
