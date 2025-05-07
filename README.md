@@ -21,8 +21,11 @@
 **Exemplos de Função Declaration:**
 **//Exemplo 1:**
 > function idade() {
+> 
 >    console.log("Qual a sua idade?")
+> 
 > }
+> 
 > idade()
 
 **//Exemplo 2:**
