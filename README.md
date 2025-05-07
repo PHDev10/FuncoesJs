@@ -84,3 +84,22 @@
 >        return cal
 >     }
 >     console.log("A área do quadrado é igual a " + area(7))
+
+## **Função Arrow:**
+> A função arrow destaca-se pela forma sucinta de como é escrita, sendo possível, em certos códigos, utilizar apenas uma única linha de código para a função. Além disso, não é obrigatório o uso dos comandos “function” e “return” e das chaves, caso a função arrow seja escrita em uma única linha. Todavia, caso haja a necessidade da função possuir mais de uma linha, torna-se essencial a utilização das chaves para definir o “corpo” da função e do comando “return”, para o retorno de algum valor. E para informar o “corpo” da função e o que ocorrerá com os parâmetros passados, utiliza-se “=>”, que é semelhante a uma seta.
+>
+
+**Vantagens:**
+> Abreviação na escrita da função, pois o comando “function” não é necessário, seja com uma ou mais linhas, assim como o comando “return” e das chaves (em casos de funções arrow com uma linha, o que os torna opcionais). Isso torna a leitura da função breve e entendível.
+>
+> Necessidade de menor espaço na memória e desempenho na execução, devido a declaração única de uma variável para a atribuição da função, além de não sofrer hoisting.
+
+**Desvantagens:**
+> Por ser atribuída a uma variável, deve-se ter cautela quanto as chamadas e possíveis reatribuições de parâmetros a função, pois pode ocasionar erros na saída de dados e na leitura do código.
+> 
+> Por não sofrer hoisting, uma função arrow não pode ser chamada antes de sua declaração.
+> 
+> Ao mesmo tempo que a sintaxe mais enxuta possa ser mais compreensível, também pode ser mais complexo de se utilizar, principalmente pela percepção mais “padrão” de como uma função é declarada, a qual a função arrow se difere fortemente.
+>
+
+** Exemplos:**
