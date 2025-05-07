@@ -6,11 +6,11 @@
 
 **Vantagens:**
 > Declaração e sintaxe de fácil interpretação e entendimento, devido, principalmente, pela palavra “function” no começo, o que pode ser associado a como as funções são declaradas de maneira semelhante em outras linguagens de programação (como Python).
-
+>
 > Passagem de parâmetros – cada valor pode ser atribuído como um parâmetro para a função, deixando-o(s) ordenadamente visível(eis) e organizado(s). Isso facilita a leitura do código e compreensão dos valores que estão sendo passados como parâmetros.
-
+>
 > Chamada de função – apenas é necessário inserir o nome da função, seguido de parênteses e de um ou mais parâmetros (dependendo da função), para utilizá-la em diferentes partes do código.
-
+>
 > Hoisting (içamento) – faz com que a função possa ser chamada em qualquer parte do código e quantas vezes quiser.
 
 **Desvantagens:**
