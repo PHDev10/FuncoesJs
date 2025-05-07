@@ -29,13 +29,13 @@
 > 
 >     idade()
 
-**//Exemplo 2:**
+**Exemplo 2:**
 >     function mensagem(msg) {
 >       console.log(msg)
 >     }
 >     mensagem("Olá, Mundo!")
 
-**//Exemplo 3:**
+**Exemplo 3:**
 >     function cal(valor1, valor2) {
 >       r= valor1 + valor2
 >      return r
@@ -61,7 +61,7 @@
 > A função a qual a função será atribuída também deverá ser corretamente declarada (var, let ou const) para evitar erros na saída de dados quando a variável for chamada ou em caso de uma reatribuição aso valores dessas variáveis.
 
 ** Exemplos:**
-**Exemplo 1:**
+** Exemplo 1:**
 > const media= function(nota1, nota2, nota3) {
 >    const soma= nota1 + nota2 + nota3;
 >    const resultado= soma / 3;
