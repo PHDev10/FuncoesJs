@@ -45,10 +45,10 @@
 >     cal(a, b)
 >     console.log("O resultado é " + r)
 
-## **Função Expression:**
+##**Função Expression:**
 > As expressões de função têm como principal característica a forma como são atribuídas – primeiramente, é criada dentro de uma expressão (uma variável que recebe a função), depois, são inseridos o comando “function”, parênteses, o(s) parâmetro(s) dentro dos parênteses e as chaves para o corpo. Sintaticamente, é feita de forma quase “oposta” a função declaration. Além disso, por ser atribuída como valor a uma variável, a função expression apenas vai ser lida conforme a execução do código, seguindo a regra de leitura – de cima para baixo, da esquerda para a direita.
 
-** Vantagens:**
+**Vantagens:**
 >Menor espaço de memória exigida, pois a função é atribuída a uma variável.
 >
 > Por seguir a regra de leitura de código (de cima para baixo, da esquerda para a direita), a função expression apenas será lida na sua respectiva linha de código e posição, evitando a necessidade de uma informação com uma função global sendo guardada desde o início da execução do algoritmo.
