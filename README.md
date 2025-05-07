@@ -20,13 +20,13 @@
 > 
 **Exemplos de Função Declaration:**
 **//Exemplo 1:**
->   function idade() {
+>     function idade() {
 > 
->      console.log("Qual a sua idade?")
+>       console.log("Qual a sua idade?")
 > 
->   }
+>     }
 > 
->   idade()
+>     idade()
 
 **//Exemplo 2:**
 > function mensagem(msg) {
