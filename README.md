@@ -22,7 +22,7 @@
 **//Exemplo 1:**
 > function idade() {
 > 
->    console.log("Qual a sua idade?")
+>      console.log("Qual a sua idade?")
 > 
 > }
 > 
