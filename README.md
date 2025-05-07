@@ -19,7 +19,8 @@
 > A declaração de uma função ocupa espaço na memória. Então, em um código onde utilizamos esse tipo de função, teria uma quantidade de memória maior reservada, necessitando de maior capacidade de armazenamento e execução por parte da máquina.
 > 
 **Exemplos de Função Declaration:**
-**//Exemplo 1:**
+
+**Exemplo 1:**
 >     function idade() {
 > 
 >       console.log("Qual a sua idade?")
